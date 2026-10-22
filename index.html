@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071629">
+  <meta name="description" content="Layanan pengurusan SBUJK dan SKK Konstruksi bersama PT Yatra Pijar Niaga. Konsultasi persyaratan, biaya, dan proses sertifikasi melalui WhatsApp.">
+  <title>PT Yatra Pijar Niaga | SBUJK & SKK Konstruksi</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #071629; font-family: Arial, Helvetica, sans-serif; }
+    .page {
+      position: relative;
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      line-height: 0;
+      overflow: hidden;
+    }
+    .design {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .hotspot {
+      position: absolute;
+      display: block;
+      z-index: 2;
+      border-radius: 999px;
+      cursor: pointer;
+      background: transparent;
+      outline-offset: 3px;
+    }
+    .hotspot:focus-visible { outline: 2px solid #fff; }
+    /* Hotspots use percentages of the original 1024 × 1536 design. */
+    .nav-home       { left: 41.5%; top: 1.65%; width: 5.4%; height: 2.2%; }
+    .nav-services   { left: 48.9%; top: 1.65%; width: 6.1%; height: 2.2%; }
+    .nav-advantages { left: 56.2%; top: 1.65%; width: 7.7%; height: 2.2%; }
+    .nav-about      { left: 65.1%; top: 1.65%; width: 8.3%; height: 2.2%; }
+    .top-contact    { left: 78.7%; top: 1.45%; width: 15.3%; height: 2.25%; }
+    .hero-contact   { left: 7.4%; top: 23.85%; width: 28.3%; height: 2.75%; }
+    .sbu-learn      { left: 21.5%; top: 52.55%; width: 15.2%; height: 2.0%; }
+    .skk-learn      { left: 66.6%; top: 52.55%; width: 15.2%; height: 2.0%; }
+    .bottom-contact { left: 8.8%; top: 86.3%; width: 27.5%; height: 2.75%; }
+    .footer-wa      { left: 34.8%; top: 92.0%; width: 14.0%; height: 1.6%; }
+    .footer-ig      { left: 84.1%; top: 92.0%; width: 2.1%; height: 1.5%; }
+    .footer-tt      { left: 87.2%; top: 92.0%; width: 2.0%; height: 1.5%; }
+    .footer-yt      { left: 90.4%; top: 92.0%; width: 2.2%; height: 1.5%; }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+    @media (min-width: 1441px) { .page { box-shadow: 0 0 50px #0005; } }
+  </style>
+</head>
+<body>
+  <main class="page" aria-label="Landing page PT Yatra Pijar Niaga">
+    <img class="design" src="landing-page.png" alt="Landing page PT Yatra Pijar Niaga — layanan SBUJK dan SKK Konstruksi" width="1024" height="1536">
+    <a class="hotspot nav-home" href="#beranda" aria-label="Beranda"><span class="sr-only">Beranda</span></a>
+    <a class="hotspot nav-services" href="#layanan" aria-label="Layanan"><span class="sr-only">Layanan</span></a>
+    <a class="hotspot nav-advantages" href="#keunggulan" aria-label="Keunggulan"><span class="sr-only">Keunggulan</span></a>
+    <a class="hotspot nav-about" href="#tentang" aria-label="Tentang Kami"><span class="sr-only">Tentang Kami</span></a>
+    <a class="hotspot top-contact" href="https://wa.me/62881010528754?text=Halo%20PT%20Yatra%20Pijar%20Niaga%2C%20saya%20ingin%20konsultasi%20SBUJK%20dan%20SKK%20Konstruksi." target="_blank" rel="noopener" aria-label="Konsultasi sekarang melalui WhatsApp"></a>
+    <a id="beranda" class="hotspot hero-contact" href="https://wa.me/62881010528754?text=Halo%20PT%20Yatra%20Pijar%20Niaga%2C%20saya%20ingin%20konsultasi%20SBUJK%20dan%20SKK%20Konstruksi." target="_blank" rel="noopener" aria-label="Konsultasi SBUJK dan SKK melalui WhatsApp"></a>
+    <a id="layanan" class="hotspot sbu-learn" href="https://wa.me/62881010528754?text=Halo%2C%20saya%20ingin%20informasi%20pengurusan%20SBUJK." target="_blank" rel="noopener" aria-label="Pelajari layanan SBUJK"></a>
+    <a class="hotspot skk-learn" href="https://wa.me/62881010528754?text=Halo%2C%20saya%20ingin%20informasi%20pengurusan%20SKK%20Konstruksi." target="_blank" rel="noopener" aria-label="Pelajari layanan SKK Konstruksi"></a>
+    <a id="keunggulan" class="hotspot bottom-contact" href="https://wa.me/62881010528754?text=Halo%20PT%20Yatra%20Pijar%20Niaga%2C%20saya%20ingin%20konsultasi%20sertifikasi%20konstruksi." target="_blank" rel="noopener" aria-label="Konsultasi sekarang melalui WhatsApp"></a>
+    <a id="tentang" class="hotspot footer-wa" href="https://wa.me/62881010528754" target="_blank" rel="noopener" aria-label="Hubungi PT Yatra Pijar Niaga melalui WhatsApp"></a>
+    <a class="hotspot footer-ig" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"></a>
+    <a class="hotspot footer-tt" href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok"></a>
+    <a class="hotspot footer-yt" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"></a>
+  </main>
+</body>
+</html>
